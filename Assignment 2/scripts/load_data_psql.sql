@@ -1,10 +1,11 @@
+-- create table clients
 CREATE TABLE clients (
     user_id UUID PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
     first_purchase_date DATE
 );
 
--- Создание таблицы продуктов
+-- create table products
 CREATE TABLE products (
     product_id UUID PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -12,7 +13,7 @@ CREATE TABLE products (
     stock_quantity INTEGER NOT NULL
 );
 
--- Создание таблицы заказов
+-- create table orders
 CREATE TABLE orders (
     order_id UUID PRIMARY KEY,
     user_id UUID REFERENCES clients(user_id) ON DELETE CASCADE,
@@ -20,7 +21,7 @@ CREATE TABLE orders (
     total_amount NUMERIC(10,2) NOT NULL
 );
 
--- Создание таблицы позиций в заказах
+-- -- create table orders_items
 CREATE TABLE orders_items (
     order_item_id UUID PRIMARY KEY,
     order_id UUID REFERENCES orders(order_id) ON DELETE CASCADE,
