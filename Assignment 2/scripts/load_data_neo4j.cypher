@@ -29,7 +29,7 @@ CREATE (c:Campaign {
     position: position
 });
 
-LOAD CSV WITH HEADERS FROM 'file:///cleaned_client_first_purchase_date.csv' AS row
+LOAD CSV WITH HEADERS FROM 'file:///cleaned_clients_first_purchase_date.csv' AS row
 WITH row, 
      toInteger(row.client_id) AS client_id, 
      date(row.first_purchase_date) AS first_purchase_date, 

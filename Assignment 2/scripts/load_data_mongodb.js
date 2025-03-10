@@ -12,7 +12,7 @@ const CSV_FILES = {
     "events": "C:/Users/User/Desktop/2 Part/Big Data/Assignment 2/data/cleaned_events.csv",
     "messages": "C:/Users/User/Desktop/2 Part/Big Data/Assignment 2/data/cleaned_messages.csv",
     "friends": "C:/Users/User/Desktop/2 Part/Big Data/Assignment 2/data/cleaned_friends.csv",
-    "client_first_purchase_date": "C:/Users/User/Desktop/2 Part/Big Data/Assignment 2/data/cleaned_client_first_purchase_date.csv"
+    "client_first_purchase_date": "C:/Users/User/Desktop/2 Part/Big Data/Assignment 2/data/cleaned_clients_first_purchase_date.csv"
 };
 
 const BATCH_SIZE = 10000;
