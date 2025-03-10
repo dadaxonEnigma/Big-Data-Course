@@ -26,6 +26,8 @@ Assignment2/
 - 🛢️ PostgreSQL
 - 🍃 MongoDB
 - 🔗 Neo4J
+- 🔎 Hackolade
+  
 
 ### 🛠️ Steps
 1. Clone the repository:
@@ -67,6 +69,13 @@ hyperfine 'psql -d ecommerce -f scripts/q1.sql' 'mongosh --file scripts/q1.js' '
 This project was inspired by insights from the research paper:
 **Serhat Uzunbayir, "Relational Database and NoSQL Inspections using MongoDB and Neo4j on a Big Data Application"**, IEEE Xplore. 
 [Read the paper](https://ieeexplore.ieee.org/document/9919589)
+- **🍃 [Data modeling in MongoDB](https://www.mongodb.com/resources/basics/databases/data-modeling)**:
+- **🔗 [Data modeling in Neo4j](https://neo4j.com/docs/getting-started/data-modeling/guide-data-modeling/)**:
+- **🔍 [Hackolade](https://hackolade.com/)**:
+- **📖 [Dataset reference](https://www.kaggle.com/datasets/mkechinov/direct-messaging)**:
+- **🛒 [REES46 Marketing Platform](https://rees46.com/)**:
+
+
 
 ## 🏁 Conclusion
 This project demonstrates different database approaches for handling big data in an e-commerce setting. PostgreSQL provides strong transactional consistency, MongoDB offers flexible schema design, and Neo4J excels in relationship analysis.
