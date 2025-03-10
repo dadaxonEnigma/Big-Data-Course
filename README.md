@@ -35,6 +35,16 @@ Assignment2/
 2. **Personalized Product Recommendations**: Identify top recommended products for users.
 3. **Full-Text Product Search**: Retrieve products based on keyword searches.
 
+## Results
+- The analysis results, query execution times, and comparative performance charts are included in `report.docx`.
+- Screenshots of results are stored in the `screenshots/` directory.
+
+## Reference
+This project was inspired by insights from the research paper:
+**Serhat Uzunbayir, "Relational Database and NoSQL Inspections using MongoDB and Neo4j on a Big Data Application"**, IEEE Xplore. 
+[Read the paper](https://ieeexplore.ieee.org/document/9919589)
+
+
 ## Benchmarking
 
 - Performance testing conducted on PostgreSQL, MongoDB, and Neo4J.
