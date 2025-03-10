@@ -14,7 +14,10 @@ This project aims to design and implement scalable data models for a global e-co
 ## Project Structure
 
 ```
-├── scripts/
+Assignment2/
+├── output/  # Contains benchmark results, logs, and execution reports
+├── screenshots/  # Screenshots of query execution results
+├── scripts/  # All scripts related to data processing and queries
 │   ├── clean_data.py  # Data cleaning script
 │   ├── load_data_psql.sql  # PostgreSQL schema & data loading
 │   ├── load_data_mongodb.js  # MongoDB data loading
@@ -58,3 +61,4 @@ As a beginner in database management, this project was challenging but extremely
 4. Execute analysis queries from the `/scripts` folder.
 
 ## Author
+Turgunboed Dadakhon
